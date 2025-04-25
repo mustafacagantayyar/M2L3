@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    font-size: 50px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #f0f0f0; /* Web sayfasının arka plan rengi */
+    color: #333333; /* Metin rengi */
+   
+}
+@keyframes color-change {
+    0% {
+      color: red;
+    }
+    1% {
+        color: red;
+    }
+    2% {
+        color: red;
+    }
+    3% {
+        color: red;
+    }
+    4% {
+        color: red;
+    }
+    5% {
+        color: red;
+    }
+    6% {
+        color: red;
+    }
+    7% {
+        color: red;
+    }
+    8% {
+        color: red;
+    }
+    9% {
+        color: red;
+    }
+    10% {
+        color: red;
+    }
+    
+
+  
+    20% {
+      color: rgb(255, 140, 0);
+    }
+    20% {
+        color: rgb(255, 140, 0);
+    }
+  
+    50% {
+      color: rgb(255, 183, 0);
+    }
+    75% {
+        color: rgb(255, 140, 0);
+    }
+    100%{
+        color: red;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+p{
+   color:black;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px; 
+}
+h2 {
+    color: #00a800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+h3{
+    color: #00a800;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    text-align: center;
+}
+li{
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
